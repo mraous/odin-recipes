@@ -1,0 +1,26 @@
+* {
+    font-family: "Courier New", sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: aquamarine;
+}
+
+.main-image {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.list-names {
+    color: black;
+    font-size: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
