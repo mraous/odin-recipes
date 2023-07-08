@@ -1,29 +1,54 @@
 * {
     font-family: "Courier New", sans-serif;
     background-color: aliceblue;
+    box-sizing: border-box;
 }
 
-h1 {
+.head-container {
     text-align: center;
-    color: black;
-    background-color: aquamarine;
+    color: rgb(250, 250, 250);
+    background-color: #817c79;
     text-transform: uppercase;
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 10px groove black;
 }
 
 .main-image {
     width: 600px;
     height: auto;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 10px auto;
+    border: 10px groove black;
 }
 
 .list-names {
     color: black;
+    background-color: #817c79;
+    border: 10px groove black;
     font-size: 20px;
     display: block;
     margin-right: auto;
     margin-left: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.list-names ul, .list-names li {
+    list-style-type: none;
+    background-color: #817c79;
+    margin: 10px;
+}
+
+.list-names a {
+    display: inline-block;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    background-color: #5b5958;
+    padding: 10px;
+    border: 2px solid #444241;
+    margin: 5px;
 }
 
 h2, h3 {
